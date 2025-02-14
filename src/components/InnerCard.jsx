@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react"
 import { useNavigate } from 'react-router-dom';
-import Heading from "/src/assets/heading.png"
 import Button from "./Button"
 import Price from "./Price"
 
@@ -48,7 +47,7 @@ const InnerCard = () => {
         <div className="border-1 ml-9 mr-9 mt-8 border-[#0E464F] rounded-3xl bg-[#08252B]">
             <div className="bg-[#07373F] mb-7 rounded-2xl ml-5 mr-5 pb-5">
                 <div className="">
-                    <img src={Heading} alt="head-img" className="lg:ml-[120px] mb-5 mt-4 pt-6 " />
+                    <img src="/assets/Heading.png" alt="head-img" className="lg:ml-[120px] mb-5 mt-4 pt-6 " />
                 </div>
                 <p className="text-white text-center">Join us for an unforgettable experience at
                     <br /> Colab Innovation Hub! secure your spot now.

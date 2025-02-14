@@ -1,6 +1,4 @@
 import "../index.css"
-import thumb from "../assets/thumb.png"
-import ticz from "../assets/ticz.png"
 import Button from "./Button";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -15,10 +13,10 @@ const Navbar = () => {
           <div className="flex space-x-2 w-[90%] ml-[22px] lg:flex justify-between items-center  border-1 border-gray-300 px-[15px] py-[15px] rounded-3xl lg:ml-[90px] mr-[90px] bg-[#052f35]">
               <div className="flex ">
                   <span>
-                    <img src={thumb} alt="thumbs" className="w-[30px]" />
+                    <img src="/assets/thumbs.png" alt="thumbs" className="w-[30px]" />
                   </span>
                   <span className="mt-[2px]">
-                    <img src= {ticz} alt="logo" className="w-[40px]" />
+                    <img src="/assets/ticz.png" alt="logo" className="w-[40px]" />
                   </span>
               </div> 
               <div className="">
