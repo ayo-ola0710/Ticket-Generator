@@ -60,7 +60,7 @@ const SecondInner = () => {
   
       if (!formData.avatarUrl.trim()) {
         newErrors.avatarUrl = 'Avatar URL is required';
-      }
+      } 
 
       if (!formData.about.trim()) {
         newErrors.about = 'Please tell us about your project';
