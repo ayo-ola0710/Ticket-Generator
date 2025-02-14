@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 import { useNavigate } from 'react-router-dom';
-import Heading from "../assets/heading.png"
+import Heading from "/src/assets/heading.png"
 import Button from "./Button"
 import Price from "./Price"
 
