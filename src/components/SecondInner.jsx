@@ -60,8 +60,6 @@ const SecondInner = () => {
   
       if (!formData.avatarUrl.trim()) {
         newErrors.avatarUrl = 'Avatar URL is required';
-      } else if (!/\.(jpg|jpeg|png|gif|bmp|webp)$/i.test(formData.avatarUrl)) {
-        newErrors.avatarUrl = "Please enter a valid image URL (jpg, png, etc.)";
       }
 
       if (!formData.about.trim()) {
